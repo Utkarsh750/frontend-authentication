@@ -45,7 +45,8 @@ const Register = () => {
   //   },
   // });
   const handleGoogleLogin = async () => {
-    window.open(`http://localhost:8000/auth/google`, "_self");
+    // window.open(`http://localhost:8000/auth/google`, "_self");
+    console.log();
   };
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100">
