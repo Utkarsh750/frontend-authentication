@@ -19,6 +19,8 @@ const ResetPasswordConfirm = () => {
     validationSchema: resetPasswordSchema,
     onSubmit: async (value) => {
       const data = { ...value, id, token };
+
+      
       console.log(value);
       //   setLoading(true);
       //   try {
