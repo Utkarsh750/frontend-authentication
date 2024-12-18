@@ -20,7 +20,3 @@ export const loginSchemas = Yup.object({
 export const resetPasswordLinkSchema = Yup.object({
   email: Yup.string().required("Email is required").email("Email is invalid"),
 });
-
-export const resetPasswordSchema = Yup.object({
-  
-})
